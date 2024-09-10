@@ -1,5 +1,4 @@
 import "./App.css";
-import logo from "/logo.png";
 import { makeShuffledDeck } from "./utils.jsx";
 import { useState } from "react";
 
@@ -82,9 +81,6 @@ function App() {
 
   return (
     <>
-      <div>
-        <img src={logo} className="logo" alt="Rocket logo" />
-      </div>
       <div className="card">
         <h2>React High Card 🚀</h2>
         {currCardElems}
