@@ -82,7 +82,7 @@ function App() {
   return (
     <>
       <div className="card">
-        <h2>React High Card</h2>
+        <h2>React High Card Solution</h2>
         {currCardElems}
         <br />
         <button onClick={numRoundsLeft === 0 ? resetGame : dealCards}>
